@@ -20,6 +20,7 @@
                 <outlet property="playerName2" destination="Sc1-tW-wb0" id="umX-TN-Pzf"/>
                 <outlet property="playerQuestion1" destination="cCW-u3-7oL" id="S1s-ZO-0rz"/>
                 <outlet property="playerQuestion2" destination="xuR-bH-8U8" id="BbR-N8-47F"/>
+                <outlet property="restartBtn" destination="5fd-gi-tdc" id="gaQ-gZ-YR4"/>
                 <outlet property="titleLbl" destination="AL7-he-3hx" id="RSo-EW-I8Y"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -171,15 +172,36 @@
                         </label>
                     </subviews>
                 </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fd-gi-tdc">
+                    <rect key="frame" x="30" y="742" width="354" height="42"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="tvI-Hy-e2S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Restart"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="restartBtnTapped:" destination="-1" eventType="touchUpInside" id="crR-xW-Tsg"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemGray6Color"/>
             <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5fd-gi-tdc" secondAttribute="trailing" constant="30" id="5cM-iN-kds"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ikm-D8-mwv" secondAttribute="trailing" constant="30" id="6Xh-GT-Att"/>
                 <constraint firstItem="4kp-Mf-ZDT" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="OFX-da-ITb"/>
+                <constraint firstItem="5fd-gi-tdc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="Wun-L7-Aw1"/>
                 <constraint firstItem="ikm-D8-mwv" firstAttribute="top" secondItem="4kp-Mf-ZDT" secondAttribute="bottom" constant="36" id="ZeL-d6-nMw"/>
                 <constraint firstItem="ikm-D8-mwv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="aVa-Ff-D6N"/>
                 <constraint firstItem="4kp-Mf-ZDT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="cHD-mo-DpE"/>
+                <constraint firstItem="5fd-gi-tdc" firstAttribute="top" secondItem="ikm-D8-mwv" secondAttribute="bottom" constant="15" id="q3E-Xi-ttO"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4kp-Mf-ZDT" secondAttribute="trailing" constant="15" id="s2h-JO-xX0"/>
             </constraints>
             <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
@@ -198,6 +220,9 @@
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

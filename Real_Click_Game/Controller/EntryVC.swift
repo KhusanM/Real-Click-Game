@@ -58,7 +58,7 @@ class EntryVC: UIViewController {
                     self.present(vc, animated: true, completion: nil)
                 }else{
                     print("no")
-                    let myData : Room = Room.init(isRoomActive: true, maxCount: 50, player_1_count: 0, player_2_count: 0, player_1_active: true, player_2_active: false, roomName: self.roomTF.text!)
+                    let myData : Room = Room.init(isRoomActive: true, maxCount: (30...50).randomElement()!, player_1_count: 0, player_2_count: 0, player_1_active: true, player_2_active: false, roomName: self.roomTF.text!)
                     
                     
                     self.db.collection("rooms").document(roomID).setData(myData.getDic())

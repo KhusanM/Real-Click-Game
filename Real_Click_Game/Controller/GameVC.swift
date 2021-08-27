@@ -73,6 +73,12 @@ class GameVC: UIViewController {
     @IBOutlet weak var player1Btn: UIButton!
     @IBOutlet weak var player2Btn: UIButton!
     
+    @IBOutlet weak var restartBtn: UIButton!{
+        didSet{
+            restartBtn.isHidden = true
+        }
+    }
+    
     var db = Firestore.firestore()
     
     var currentRoomDocumentID: String!
@@ -153,6 +159,8 @@ class GameVC: UIViewController {
             }else{
                 playerQuestion2.text = "WIN!!!"
             }
+            
+            restartBtn.isHidden = false
         }
     }
     
@@ -169,6 +177,27 @@ class GameVC: UIViewController {
     
     @IBAction func player2PlusBtnTapped(_ sender: Any) {
         self.db.collection("rooms").document(self.currentRoomDocumentID).updateData(["player_2_count": self.currentRoom.player_2_count + 1])
+        
+    }
+    
+    @IBAction func restartBtnTapped(_ sender: Any) {
+        playerQuestion2.text = "\(currentRoom.maxCount)"
+        playerQuestion1.text = "\(currentRoom.maxCount)"
+        playerCount1.text = "\(0)"
+        playerCount2.text = "\(0)"
+        self.db.collection("rooms").document(self.currentRoomDocumentID).updateData(["player_1_count": 0])
+        self.db.collection("rooms").document(self.currentRoomDocumentID).updateData(["player_2_count": 0])
+        
+        
+        if currenPlayer == 1{
+            player1Btn.isHidden = false
+            player2Btn.isHidden = true
+        }else{
+            player1Btn.isHidden = true
+            player2Btn.isHidden = false
+        }
+        
+        restartBtn.isHidden = true
         
     }
 }
