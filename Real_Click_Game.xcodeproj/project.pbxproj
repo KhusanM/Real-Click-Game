@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D0F164C526D6404F0039A35F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F164C426D6404F0039A35F /* AppDelegate.swift */; };
-		D0F164C726D6404F0039A35F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F164C626D6404F0039A35F /* SceneDelegate.swift */; };
-		D0F164C926D6404F0039A35F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F164C826D6404F0039A35F /* ViewController.swift */; };
-		D0F164CC26D6404F0039A35F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F164CA26D6404F0039A35F /* Main.storyboard */; };
 		D0F164CE26D640570039A35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F164CD26D640570039A35F /* Assets.xcassets */; };
-		D0F164D126D640570039A35F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F164CF26D640570039A35F /* LaunchScreen.storyboard */; };
+		D0F164DA26D640DC0039A35F /* EntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F164D826D640DC0039A35F /* EntryVC.swift */; };
+		D0F164DB26D640DC0039A35F /* EntryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F164D926D640DC0039A35F /* EntryVC.xib */; };
+		D0F164DE26D640EC0039A35F /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F164DC26D640EC0039A35F /* GameVC.swift */; };
+		D0F164DF26D640EC0039A35F /* GameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F164DD26D640EC0039A35F /* GameVC.xib */; };
+		D0F164E126D659390039A35F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0F164E026D659390039A35F /* GoogleService-Info.plist */; };
+		D1BCC6F54FD5475995D72609 /* Pods_Real_Click_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CA96CD8A5F5DCA63E4CC2 /* Pods_Real_Click_Game.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184CA96CD8A5F5DCA63E4CC2 /* Pods_Real_Click_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Real_Click_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A579CD26FF2E99CF7BBC153B /* Pods-Real_Click_Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real_Click_Game.debug.xcconfig"; path = "Target Support Files/Pods-Real_Click_Game/Pods-Real_Click_Game.debug.xcconfig"; sourceTree = "<group>"; };
 		D0F164C126D6404F0039A35F /* Real_Click_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Real_Click_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F164C426D6404F0039A35F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0F164C626D6404F0039A35F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0F164C826D6404F0039A35F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0F164CB26D6404F0039A35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0F164CD26D640570039A35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0F164D026D640570039A35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0F164D226D640570039A35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F164D826D640DC0039A35F /* EntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryVC.swift; sourceTree = "<group>"; };
+		D0F164D926D640DC0039A35F /* EntryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntryVC.xib; sourceTree = "<group>"; };
+		D0F164DC26D640EC0039A35F /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		D0F164DD26D640EC0039A35F /* GameVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameVC.xib; sourceTree = "<group>"; };
+		D0F164E026D659390039A35F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA48EE8F594209A0600E38F5 /* Pods-Real_Click_Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real_Click_Game.release.xcconfig"; path = "Target Support Files/Pods-Real_Click_Game/Pods-Real_Click_Game.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BCC6F54FD5475995D72609 /* Pods_Real_Click_Game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CA150A22973DE6982703DC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A579CD26FF2E99CF7BBC153B /* Pods-Real_Click_Game.debug.xcconfig */,
+				FA48EE8F594209A0600E38F5 /* Pods-Real_Click_Game.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A26CEFE56CD7A2DB74598FED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184CA96CD8A5F5DCA63E4CC2 /* Pods_Real_Click_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0386C3026D799A40050943B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0386C3126D799B30050943B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0F164D926D640DC0039A35F /* EntryVC.xib */,
+				D0F164DD26D640EC0039A35F /* GameVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0386C3226D799B80050943B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0F164D826D640DC0039A35F /* EntryVC.swift */,
+				D0F164DC26D640EC0039A35F /* GameVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D0F164B826D6404F0039A35F = {
 			isa = PBXGroup;
 			children = (
 				D0F164C326D6404F0039A35F /* Real_Click_Game */,
 				D0F164C226D6404F0039A35F /* Products */,
+				8CA150A22973DE6982703DC8 /* Pods */,
+				A26CEFE56CD7A2DB74598FED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +107,12 @@
 		D0F164C326D6404F0039A35F /* Real_Click_Game */ = {
 			isa = PBXGroup;
 			children = (
+				D0386C3026D799A40050943B /* Model */,
+				D0386C3126D799B30050943B /* View */,
+				D0386C3226D799B80050943B /* Controller */,
+				D0F164E026D659390039A35F /* GoogleService-Info.plist */,
 				D0F164C426D6404F0039A35F /* AppDelegate.swift */,
-				D0F164C626D6404F0039A35F /* SceneDelegate.swift */,
-				D0F164C826D6404F0039A35F /* ViewController.swift */,
-				D0F164CA26D6404F0039A35F /* Main.storyboard */,
 				D0F164CD26D640570039A35F /* Assets.xcassets */,
-				D0F164CF26D640570039A35F /* LaunchScreen.storyboard */,
 				D0F164D226D640570039A35F /* Info.plist */,
 			);
 			path = Real_Click_Game;
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0F164D526D640570039A35F /* Build configuration list for PBXNativeTarget "Real_Click_Game" */;
 			buildPhases = (
+				D1D3E5FE052D0B4A4544A123 /* [CP] Check Pods Manifest.lock */,
 				D0F164BD26D6404F0039A35F /* Sources */,
 				D0F164BE26D6404F0039A35F /* Frameworks */,
 				D0F164BF26D6404F0039A35F /* Resources */,
+				B07295C377563C343DE3349C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,45 +177,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F164D126D640570039A35F /* LaunchScreen.storyboard in Resources */,
 				D0F164CE26D640570039A35F /* Assets.xcassets in Resources */,
-				D0F164CC26D6404F0039A35F /* Main.storyboard in Resources */,
+				D0F164E126D659390039A35F /* GoogleService-Info.plist in Resources */,
+				D0F164DF26D640EC0039A35F /* GameVC.xib in Resources */,
+				D0F164DB26D640DC0039A35F /* EntryVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B07295C377563C343DE3349C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real_Click_Game/Pods-Real_Click_Game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real_Click_Game/Pods-Real_Click_Game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Real_Click_Game/Pods-Real_Click_Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D3E5FE052D0B4A4544A123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Real_Click_Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0F164BD26D6404F0039A35F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F164C926D6404F0039A35F /* ViewController.swift in Sources */,
 				D0F164C526D6404F0039A35F /* AppDelegate.swift in Sources */,
-				D0F164C726D6404F0039A35F /* SceneDelegate.swift in Sources */,
+				D0F164DE26D640EC0039A35F /* GameVC.swift in Sources */,
+				D0F164DA26D640DC0039A35F /* EntryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D0F164CA26D6404F0039A35F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0F164CB26D6404F0039A35F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0F164CF26D640570039A35F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0F164D026D640570039A35F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0F164D326D640570039A35F /* Debug */ = {
@@ -283,10 +360,12 @@
 		};
 		D0F164D626D640570039A35F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A579CD26FF2E99CF7BBC153B /* Pods-Real_Click_Game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U23784U7DD;
 				INFOPLIST_FILE = Real_Click_Game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,10 +380,12 @@
 		};
 		D0F164D726D640570039A35F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA48EE8F594209A0600E38F5 /* Pods-Real_Click_Game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U23784U7DD;
 				INFOPLIST_FILE = Real_Click_Game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
