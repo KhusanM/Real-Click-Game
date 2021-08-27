@@ -53,7 +53,7 @@ class EntryVC: UIViewController {
                     
                     let vc = GameVC(nibName: "GameVC", bundle: nil)
                     vc.modalPresentationStyle = .fullScreen
-                    vc.currentRoomDocumentID = docIDes.first
+                    vc.currentRoomDocumentID = roomID
                     vc.currenPlayer = 2
                     self.present(vc, animated: true, completion: nil)
                 }else{
