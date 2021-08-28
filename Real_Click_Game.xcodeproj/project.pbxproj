@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06429B526DA4650001D0BA4 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06429B426DA4650001D0BA4 /* Alert.swift */; };
 		D0F164C526D6404F0039A35F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F164C426D6404F0039A35F /* AppDelegate.swift */; };
 		D0F164CE26D640570039A35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F164CD26D640570039A35F /* Assets.xcassets */; };
 		D0F164DA26D640DC0039A35F /* EntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F164D826D640DC0039A35F /* EntryVC.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		184CA96CD8A5F5DCA63E4CC2 /* Pods_Real_Click_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Real_Click_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A579CD26FF2E99CF7BBC153B /* Pods-Real_Click_Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real_Click_Game.debug.xcconfig"; path = "Target Support Files/Pods-Real_Click_Game/Pods-Real_Click_Game.debug.xcconfig"; sourceTree = "<group>"; };
+		D06429B426DA4650001D0BA4 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		D0F164C126D6404F0039A35F /* Real_Click_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Real_Click_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F164C426D6404F0039A35F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F164CD26D640570039A35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		D0386C3026D799A40050943B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D06429B426DA4650001D0BA4 /* Alert.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				D0F164C526D6404F0039A35F /* AppDelegate.swift in Sources */,
 				D0F164DE26D640EC0039A35F /* GameVC.swift in Sources */,
+				D06429B526DA4650001D0BA4 /* Alert.swift in Sources */,
 				D0F164DA26D640DC0039A35F /* EntryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

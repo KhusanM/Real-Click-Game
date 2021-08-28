@@ -156,8 +156,10 @@ class GameVC: UIViewController {
             
             if room.player_1_count == room.maxCount{
                 playerQuestion1.text = "WIN!!!"
+                ShowAlert.showAlert(text: "Player 1 WIN!!!", forState: .success)
             }else{
                 playerQuestion2.text = "WIN!!!"
+                ShowAlert.showAlert(text: "Player 2 WIN!!!", forState: .success)
             }
             
             restartBtn.isHidden = false
